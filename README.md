@@ -13,10 +13,12 @@
 - face detection data mining
   - client : pyQT, openCV
     - webcam으로 부터 face detection정보(촬영 횟수, 얼굴 인식 횟수, 눈 인식 횟수, 사용자 인식 정도, 얼굴 bounding box의 coord 등)를 server로 http프로토콜을 이용하여 전송
-   - server : nodejs, hadoop, spark, kafka
+    
+  - server : nodejs, hadoop, spark, kafka
     - structured streaming
     - nodejs가 클라이언트로 부터 정보를 받고 kafka로 다시 전송한 후, spark structured streaming을 통해 data mining 된 정보를 가지고 집중도, 참여도를 실시간으로 판단
     - data mining은 sparkSQL을 통해 계산된 간단한 통계값을 이용
+    
   - 필요한 기능
     - 학습 데이터된 데이터를 서버로 전송 및 서버에 저장하는 것(련재는 그냥 로컬에 저장)
   
