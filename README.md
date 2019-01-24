@@ -1,4 +1,4 @@
-# Spark
+﻿# Spark
 - spark을 공부하며 수행했던 실습파일들입니다.
 - 연세대학교 빅데이터 학회 와이빅타 엔지니어링팀의 실습/과제/프로젝트를 위한 코드입니다.
 - https://github.com/YBIGTA/EngineeringTeam
@@ -18,9 +18,10 @@
     - nodejs가 클라이언트로 부터 정보를 받고 kafka로 다시 전송
     - spark structured streaming을 통해 집중도, 참여도를 실시간으로 판단
     - 집중도, 참여도를 계산하기 위해서 sparkSQL을 통해 계산된 간단한 통계값을 이용(data mining)
+    - 단일노드에서 작동
     
   - 필요한 기능
-    - 학습된 데이터를 서버로 전송 및 서버에 저장하는 것(현재는 그냥 로컬에 저장) 
+    - 학습된 데이터를 서버로 전송 및 서버의 hdfs에 저장하는 기능(현재는 그냥 로컬에 저장) 
   
 ## 2. 환경
 - jupyter notebook
