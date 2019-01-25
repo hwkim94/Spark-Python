@@ -1,4 +1,4 @@
-## face detection data mining
+## Face detection data mining
 - client : pyQT, openCV
   - webcam으로 부터 face detection정보(촬영 횟수, 얼굴 인식 횟수, 눈 인식 횟수, 사용자 인식 정도, 얼굴 bounding box의 coord 등)를 server로 http프로토콜을 이용하여 전송
     
